@@ -11,11 +11,14 @@ struct input_event {
 	unsigned int value;
 };
 
-char exitKey[] = "RIGHTSHIFT";
 
-char device[] ="/dev/input/"; //Input device
 
-char logFile[] = "logfile.txt";
+//SETTINGS
+const char exitKey[] = "RIGHTSHIFT";
+
+const char device[] ="/dev/input/";  //Input device
+
+const char logFile[] = "logfile.txt";
 
 
 //translated keys from linux input event codes
